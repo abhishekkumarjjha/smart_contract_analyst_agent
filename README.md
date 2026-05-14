@@ -189,7 +189,7 @@ The domain knowledge layer (`billing_master.py`) is the only thing that changes.
 
 ## Production Context
 
-Built during my time as Financial Analyst at Horizon Clinical Research Group (Houston, TX). Deployed to production with direct financial consequences — output used by finance and operations teams for contract negotiation and budget reconciliation with pharmaceutical sponsors.
+Built during my time as Financial Analyst at Horizon Clinical Research Group (Houston, TX). Deployed for contract negotiation and budget reconciliation with pharmaceutical sponsors.
 
 The agent recovered identifiable revenue on every contract it reviewed by surfacing billing items sponsors had omitted.
 
@@ -199,4 +199,4 @@ The agent recovered identifiable revenue on every contract it reviewed by surfac
 
 **Abhishek Kumar Jha** — AI Safety Researcher · Former xAI Red Teamer · MS Business Analytics, UT Arlington
 
-[LinkedIn](https://linkedin.com/in/abhishekumarjha) · [GitHub](https://github.com/abhishekkumarjjha) · [Portfolio](https://avi-jha.vercel.app)
+[LinkedIn](https://linkedin.com/in/abhishekumarjha) · [GitHub](https://github.com/abhishekkumarjjha) 
