@@ -1,0 +1,30 @@
+{
+  "skills": {
+    "analyze-contract": {
+      "description": "Run full clinical trial contract analysis pipeline",
+      "default_output": "markdown",
+      "audit_log_path": "./logs/contract_analysis.jsonl",
+      "billing_master_path": "./billing_master.py",
+      "soul_path": "./docs/soul.md",
+      "knowledge_path": "./docs/knowledge.md"
+    }
+  },
+  "hooks": {
+    "post_analysis": {
+      "command": "python hooks/audit_logger.py",
+      "description": "Logs every analysis run to JSONL audit trail",
+      "trigger": "on_skill_complete"
+    },
+    "pre_analysis": {
+      "command": "python hooks/contract_validator.py",
+      "description": "Validates PDF is readable and non-empty before analysis begins",
+      "trigger": "on_skill_start"
+    }
+  },
+  "model": "claude-sonnet-4-20250514",
+  "permissions": {
+    "read_files": true,
+    "write_files": ["./logs/", "./output/"],
+    "network": false
+  }
+}
