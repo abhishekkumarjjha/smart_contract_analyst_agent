@@ -189,7 +189,7 @@ The domain knowledge layer (`billing_master.py`) is the only thing that changes.
 
 ## Production Context
 
-Built during my time as Financial Analyst at Horizon Clinical Research Group (Houston, TX). Deployed for contract negotiation and budget reconciliation with pharmaceutical sponsors.
+Built during my time as Financial Analyst at Horizon Clinical Research Group (Houston, TX). Deployed for contract negotiation and budget reconciliation with pharmaceutical sponsors. Uploaded on github on May 14.
 
 The agent recovered identifiable revenue on every contract it reviewed by surfacing billing items sponsors had omitted.
 
